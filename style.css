@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish:ital,wght@0,200;0,400;1,300;1,400&display=swap');
+
+body{
+    background-image: url("background.png");
+    background-position: center ;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish,serif;
+}
+
+.card{
+    width: 700px;
+
+    background-image: url("form-background.png");
+    background-position: center ;
+    background-size: cover;
+
+    padding-top: 26px ;
+    padding-bottom: 26px;
+    padding-left: 36px ;
+    padding-right: 120px ;
+    border-radius: 15px;
+    box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.54);
+
+
+}
+
+.card h1{
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 28px;
+    font-size: 1.2rem;
+}
+
+.card .namesForm{
+    display: flex;
+    width: 100px;
+    gap: 20px;
+    margin-bottom: 12px;
+
+}
+
+.namesForm label{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.namesForm input{
+    border-radius: 15px;
+    height: 35px;
+    width: 160px;
+    border: 1px solid gray;
+
+}
+
+
+
+.otherForms form{
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+.otherForms form label{
+    color: gray;
+    font-size: 0.8rem;
+
+}
+
+.otherForms form input{
+    border-radius: 15px;
+    height: 35px;
+
+    border: 1px solid gray;
+
+}
+
+form input:focus{
+    background-color: #d9d9d9;
+    transition: 400ms;
+
+
+}
+
+.check label{
+    font-size: 0.7rem;
+}
+
+.check input{
+    margin-top: 2px;
+    width: 16px;
+
+
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button{
+    all: unset;
+    background-color: #ae3c33;
+    padding: 6px 14px;
+    border-radius: 15px;
+    margin-left: 95px;
+    color: white;
+
+
+}
+
+
+button:hover{
+    transform: scale(1.3);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.check:hover{
+    cursor: pointer;
+}
+
+.check label:hover{
+
+}
+
